@@ -39,3 +39,8 @@ IdentityFile ~/.ssh/id_rsa
 
 #### 0:36
 修剪远程分支 `git remote prune origin`
+
+#### 签出无需管理？
+测试
+
+main* main+ main三种状态表示：已更改，已暂存和已提交
