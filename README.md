@@ -13,3 +13,25 @@ Hiworks是一个受长期支持的私人仓库
 
 23:22
 找对了文件夹也没连上
+
+#### 2023/11/25
+
+新增了 ~/.ssh 内一个config文件、内容如下：
+```
+Host github.com
+User git
+Hostname ssh.github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa
+Port 443
+
+Host gitlab.com
+Hostname altssh.gitlab.com
+User git
+Port 443
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa
+
+```
+
+运行    `ssh -T git@github.com`
