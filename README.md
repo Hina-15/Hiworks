@@ -36,3 +36,6 @@ IdentityFile ~/.ssh/id_rsa
 ```
 
 运行    `ssh -T git@github.com`
+
+#### 0:36
+修剪远程分支 `git remote prune origin`
