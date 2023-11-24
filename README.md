@@ -44,3 +44,7 @@ IdentityFile ~/.ssh/id_rsa
 测试
 
 main* main+ main三种状态表示：已更改，已暂存和已提交
+
+## 创建新的分支
+
+测试分支成功，如何合并？
